@@ -1,0 +1,28 @@
+table{
+	border-top: 1px solid gray;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid gray;
+	padding: 1px;
+	margin: 20px auto;
+}
+th,td{
+	border-top: 1px solid black;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid black;
+	padding: 3px;
+	max-width: 220px;
+}
+tbody th{
+	text-align: left;
+}
+.tableBorder{
+	border-spacing: 0px;
+	padding: 0px;
+}
+.tableBorder td{
+	width: 500px;
+	text-align: left;
+	vertical-align: top;
+}
